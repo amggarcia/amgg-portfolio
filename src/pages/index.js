@@ -68,88 +68,60 @@ const IndexPage = () => (
           </div></div>
       </section>
 
-
-      <section id="three" className="wrapper spotlight style3">
+      <section id="four" className="wrapper style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Projects</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            These are some of the projects in which i had the oportunity to work on, some professionaly others being personal side-projects that you might find on my github
           </p>
+          <p>You can find more detailed information for each project, such as technologies used and noteworthy aspects in the project detail sectio.</p>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Financial investment web application</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Fullstack development of a financial investment advisory web platform for a bank, with the main goal of simplifying the process of creating and finalizing investment proposals for both the client and account manager.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Detail
               </a>
             </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Dynamic configurable form collection platform</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Development of a dynamic/configurable information collection and submission platform in the financial sector.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Detail
               </a>
             </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic6} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
+              <h3 className="major">SMS notification service for Field Force Management platform</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Development of a Windows Service based software to monitor real time changes in the workflows of a Field Force Management platform and notify the client through SMS of said changes.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Detail
               </a>
             </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic7} alt="" />
               </a>
-              <h3 className="major">Fusce consequat</h3>
+              <h3 className="major">Personal portfolio website</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Development of the website you are on currently.
               </p>
               <a href="/#" className="special">
-                Learn more
+                Detail
               </a>
             </article>
           </section>
