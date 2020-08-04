@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter SolidState', // <title>
-  manifestName: 'SolidState',
+  siteTitle: 'Amgg.dev', // <title>
+  manifestName: 'Amgg',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'André Garcia',
+  subHeading: 'Back-end developer',
   // social
   socialLinks: [
     {

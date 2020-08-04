@@ -23,48 +23,51 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="wrapper">
-      <section id="one" className="wrapper spotlight style1">
-        <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic1} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+    <section id="one" className="wrapper spotlight style1">
+      <div className="inner">
+        <a href="/#" className="image">
+          <img src={pic2} alt="" />
+        </a>
+        <div className="content">
+          <h2 className="major">Who am I ?</h2>
+          <p>
+            Back-end developer with industry experience building web applications, back-end services and API's using .Net Core, Typescript and Angular.
             </p>
-            <a href="/#" className="special">
-              Learn more
+          <p>
+            Always looking forward to find and learn the best tool for the job at hand, and the oportunity to take on new and interesting challenges.
+            </p>
+          {/*
+        <a href="/#" className="special">
+            Learn more
             </a>
-          </div>
+        */}
         </div>
-      </section>
+      </div>
+    </section>
 
+    <section id="wrapper">
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
+            <h2 className="major">Skills</h2>
+            <ul class="alt">
+              <li><span class="list-title">Technologies </span>
+                <span class="list-info"> C#, Typescript, Javascript</span></li>
+              <li><span class="list-title">Framework </span> <span class="list-info"> Angular, .Net Core MVC</span></li>
+              <li><span class="list-title">Databases </span> <span class="list-info"> Microsoft SQL Server, Oracle, DB2</span></li>
+              <li><span class="list-title">Languages </span> <span class="list-info"> Portuguese,  English</span></li>
+            </ul>
+            {/*
+        <a href="/#" className="special">
+            Learn more
             </a>
-          </div>
-        </div>
+        */}
+          </div></div>
       </section>
+
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
