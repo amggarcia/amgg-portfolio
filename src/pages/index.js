@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -11,7 +12,6 @@ import pic7 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
 export default function IndexPage({ data }) {
-  console.log(data);
   return (
 
     <Layout>
@@ -81,14 +81,12 @@ export default function IndexPage({ data }) {
               {/*Missing image handling */}
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <article key={node.id}>
-                  <a href="/#" className="image">
+                  <Link to={node.fields.slug} className="image">
                     <img src={pic4} alt="" />
-                  </a>
+                  </Link>
                   <h3 className="major">{node.frontmatter.title}</h3>
                   <p>{node.frontmatter.shortDesc}</p>
-                  <a href="/#" className="special">
-                    Detail
-              </a>
+                  <Link to={node.fields.slug} className="special">Detail</Link>
                 </article>
               ))}
             </section>
@@ -116,6 +114,9 @@ export const query = graphql`
           title
           date
           shortDesc
+        }
+        fields{
+          slug
         }
         excerpt
       }

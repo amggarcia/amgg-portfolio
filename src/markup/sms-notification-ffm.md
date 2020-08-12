@@ -1,5 +1,5 @@
 ---
-title: "SSMS notification service for Field Force Management platform"
+title: "SMS notification service for Field Force Management platform"
 shortDesc : "Development of a Windows Service based software to monitor real time changes in the workflows of a Field Force Management platform and notify the client through SMS of said changes."
 date: "2017-08-10"
 ---
