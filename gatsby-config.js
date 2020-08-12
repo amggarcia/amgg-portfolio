@@ -28,6 +28,21 @@ module.exports = {
         path: `${__dirname}/src/markup`
       }
     },
-    'gatsby-transformer-remark',
-  ],
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=3]": "major",
+                "heading[depth=1]": "title",
+              }
+            }
+          },
+        ]
+      }
+    }
+  ]
 };
