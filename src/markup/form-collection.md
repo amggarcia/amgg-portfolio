@@ -17,10 +17,10 @@ This project was developed using .Net Core for the back-end API, Angular 8 in th
 
 ## Roles
 
-In this project i was part of a team of 3 developers and responsible for developing both the back-end and front-end, in adition to coordinate with an external team that was exposing new api's for our application to consume data from a already existing system.
+In this project i was part of a team of 3 developers and responsible for developing both the back-end and front-end, in adition to coordinate with an external team that was exposing new api's for our application to consume data from an already existing system.
 
 ## Challenges
 
 During the project most of the hardships came from trying to find ways to mantain our system modular (avoid the creation of hard dependencies between diferent modular components) and meeting client demands for validation/cross data integrity.
 
-These validations/cross data integrity requirements were not detailed at the project start wich forced us to find a way to meet the client requirements and keep the application modular and extensible as planned initialy, in order to do this a external "validation engine" was designed where you could define rules and validations without impacting the information collection components directly.
+These validations/cross data integrity requirements were not detailed at the project start wich forced us to find a way to meet the client requirements and keep the application modular and extensible as planned initialy, in order to do this an external "validation engine" was designed where you could define rules and validations without impacting the information collection components directly.
