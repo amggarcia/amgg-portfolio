@@ -7,7 +7,8 @@ export default function ProjectDescription({ data }) {
         <Layout fullMenu>
             <section id="wrapper">
                 <header>
-                    <div className="inner">
+                    {/* Inline css temporarily, should add smth to handle this if it gets complex */}
+                    <div className="inner" style={{ textAlign: 'center' }}>
                         <h2>{project.frontmatter.title}</h2>
                     </div>
                 </header>
@@ -15,7 +16,7 @@ export default function ProjectDescription({ data }) {
                     <div className="inner" dangerouslySetInnerHTML={{ __html: project.html }}>
                     </div></div>
             </section>
-        </Layout>
+        </Layout >
     )
 
 }

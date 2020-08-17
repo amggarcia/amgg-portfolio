@@ -36,8 +36,7 @@ module.exports = {
             resolve: `gatsby-remark-classes`,
             options: {
               classMap: {
-                "heading[depth=3]": "major",
-                "heading[depth=1]": "title",
+                heading: "major"
               }
             }
           },

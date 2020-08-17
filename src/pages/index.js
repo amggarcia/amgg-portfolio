@@ -92,9 +92,7 @@ export default function IndexPage({ data }) {
             </section>
             <ul className="actions">
               <li>
-                <a href="/#" className="button">
-                  Browse All
-              </a>
+                <Link to="/Projects" className="special">Browse All</Link>
               </li>
             </ul>
           </div>
