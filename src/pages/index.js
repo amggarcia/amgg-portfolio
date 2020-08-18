@@ -73,7 +73,6 @@ export default function IndexPage({ data }) {
             <p>You can find more detailed information for each project, such as technologies used and noteworthy aspects in the project detail sectio.</p>
             <section className="features">
               {/*Missing image handling */}
-              {console.log(data)}
               {data.allMarkdownRemark.edges.map(({ node }) => (
                 <article key={node.id}>
                   <Link to={node.fields.slug} className="image">
