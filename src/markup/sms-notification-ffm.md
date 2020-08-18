@@ -22,7 +22,7 @@ A small web page was created to allow the parametrization of what changes would 
 
 ## Roles
 
-During this project i was part of a team composed of 2 developers wich allowed me to be involved in the complete lifecycle of the application, from change request analysis, development, deploy and maintenance.
+During this project i was part of a team composed of 2 developers which allowed me to be involved in the complete lifecycle of the application, from change request analysis, development, deploy and maintenance.
 
 ## Challenges
 
@@ -30,4 +30,4 @@ One of the chalenges faced during the development of the application was the fac
 
 With this change we also had to worry about problems that could arrise during periods of high usage, such as the batches used not being large enough/performant enough to handle all the in real time messages causing notifications to arrive after they were suposed to.
 
-In order to combat this, parts of the system were scaled up, using paraleziation of some portions of the system in order to increase output (SMS trigger processing) while in other areas we increased the number of machines processing information (batch collection and processing from main application), both of this approaches forced us to now have to manage concurrency in our application, wich proved to be quite an interesting chalenge at the time.
+In order to combat this, parts of the system were scaled up, using paraleziation of some portions of the system in order to increase output (SMS trigger processing) while in other areas we increased the number of machines processing information (batch collection and processing from main application), both of this approaches forced us to now have to manage concurrency in our application, which proved to be quite an interesting chalenge at the time.

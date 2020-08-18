@@ -70,7 +70,7 @@ export default function IndexPage({ data }) {
             <p>
               These are some of the projects in which i had the oportunity to work on, some professionaly others being personal side-projects that you might find on my github
           </p>
-            <p>You can find more detailed information for each project, such as technologies used and noteworthy aspects in the project detail sectio.</p>
+            <p>You can find more detailed information for each project, such as technologies used and noteworthy aspects in the project details section.</p>
             <section className="features">
               {/*Missing image handling */}
               {data.allMarkdownRemark.edges.map(({ node }) => (

@@ -24,4 +24,4 @@ In this project i was part of a team of 3 developers and responsible for develop
 
 During the project most of the hardships came from trying to find ways to mantain our system modular (avoid the creation of hard dependencies between diferent modular components) and meeting client demands for validation/cross data integrity.
 
-These validations/cross data integrity requirements were not detailed at the project start wich forced us to find a way to meet the client requirements and keep the application modular and extensible as planned initialy, in order to do this an external "validation engine" was designed where you could define rules and validations without impacting the information collection components directly.
+These validations/cross data integrity requirements were not detailed at the project start which forced us to find a way to meet the client requirements and keep the application modular and extensible as planned initialy, in order to do this an external "validation engine" was designed where you could define rules and validations without impacting the information collection components directly.

@@ -6,9 +6,9 @@ image : "../assets/images/projectImages/portfolio.jpg"
 ---
 ## Project Scope
 
-This was a personal project in wich the goal was to create a simple personal website that i could use as a "portfolio" of sorts, and easily update and mantain during its lifespan.
+This was a personal project in which the goal was to create a simple personal website that i could use as a "portfolio" of sorts, and easily update and mantain during its lifespan.
 
-Wich to date should be the website where this is currently being viewed.
+which to date should be the website where this is currently being viewed.
 
 
 ## Technology Stack
