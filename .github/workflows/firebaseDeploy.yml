@@ -20,14 +20,17 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checks out master
-    - uses: actions/checkout@master
-
-    - uses: actions/setup-node@master
+      uses: actions/checkout@master
+    - name: SetUp node
+      uses: actions/setup-node@master
       with:
             node-versions : '10.x'
-    - run: npm install
-    - run: npm run build
-    - uses: w9jds/firebase-action@master
+    - name: Install deps
+      run: npm install
+    - name: Build
+      run: npm run build
+    - name : Deploy
+      uses: w9jds/firebase-action@master
       with:  
         args: deploy --only hosting
       env: 
