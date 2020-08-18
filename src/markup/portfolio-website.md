@@ -2,6 +2,7 @@
 title: "Personal portfolio website"
 shortDesc : "Development of the website you are on currently."
 date: "2017-08-10"
+image : "../assets/images/projectImages/portfolio.jpg"
 ---
 ## Project Scope
 

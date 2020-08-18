@@ -1,7 +1,8 @@
 const config = require('./config');
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  //Line needed if website is not served from the root of the domain
+  //pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
   },
@@ -29,6 +30,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images/projectImages`
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
@@ -42,6 +50,9 @@ module.exports = {
           },
         ]
       }
-    }
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-image`,
   ]
 };

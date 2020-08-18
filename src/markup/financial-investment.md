@@ -2,6 +2,7 @@
 title: "Financial investment web application"
 shortDesc : "Fullstack development of a financial investment advisory web platform for a bank, with the main goal of simplifying the process of creating and finalizing investment proposals for both the client and account manager."
 date: "2017-08-10"
+image : "../assets/images/projectImages/investment.jpg"
 ---
 ## Project Scope
 

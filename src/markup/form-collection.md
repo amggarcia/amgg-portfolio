@@ -2,6 +2,7 @@
 title: "Dynamic configurable form collection platform"
 shortDesc : "Development of a dynamic/configurable information collection and submission platform in the social sector."
 date: "2017-08-10"
+image : "../assets/images/projectImages/forms.jpg"
 ---
 ## Project Scope
 
