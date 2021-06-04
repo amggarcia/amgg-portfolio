@@ -26,15 +26,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/markup`
-      }
+        path: `${__dirname}/src/markup`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images/projectImages`
-      }
+        path: `${__dirname}/src/assets/images/projectImages`,
+      },
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -44,15 +44,15 @@ module.exports = {
             resolve: `gatsby-remark-classes`,
             options: {
               classMap: {
-                heading: "major"
-              }
-            }
+                heading: 'major',
+              },
+            },
           },
-        ]
-      }
+        ],
+      },
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-image`,
-  ]
+  ],
 };

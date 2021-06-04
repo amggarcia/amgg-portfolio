@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'André Garcia',
-  subHeading: 'Back-end developer',
+  subHeading: 'Full Stack Developer',
   // social
   socialLinks: [
     {
